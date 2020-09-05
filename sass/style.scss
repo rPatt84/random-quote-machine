@@ -1,0 +1,48 @@
+@import 'background-colors';
+
+
+//GLOBAL//
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.height {
+    height: auto;
+}
+
+//Get quote container
+
+#get-quote {
+   text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+//Quote box container
+
+#quote-box {
+    min-height: 400px;
+    box-shadow: 4px 4px 8px #000; 
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #fff;
+
+    #author {
+        width: 250px;
+        margin: auto;
+    }
+
+}
